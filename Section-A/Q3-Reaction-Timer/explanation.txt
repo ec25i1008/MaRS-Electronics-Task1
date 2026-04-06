@@ -1,0 +1,3 @@
+The Arduino waits for a random delay before turning on an LED. 
+Once the LED turns on, the program records the current time using the millis() function.
+When the pushbutton is pressed, the Arduino calculates the difference between the current time and the start time to determine the user’s reaction time and prints it on the Serial Monitor.
