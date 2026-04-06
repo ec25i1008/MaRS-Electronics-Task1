@@ -1,0 +1,3 @@
+The potentiometer provides an analog value from 0–1023 which is read using analogRead().
+This value is mapped to a 0–255 range and used to control the RGB LED brightness using PWM (analogWrite). 
+The same potentiometer value is also mapped to control the blinking delay of another LED, making the blink speed change as the knob is rotated.
